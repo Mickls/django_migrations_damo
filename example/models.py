@@ -20,6 +20,7 @@ class Publisher(models.Model):
 
 class Author(models.Model):
     name = models.CharField(max_length=30)
+    bb = models.CharField(max_length=10, null=0)
     aa = models.CharField(max_length=10)
 
     def __str__(self):
