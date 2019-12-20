@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'django_migrations_demo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_migrations',
+        'NAME': 'django_migrations_test',
         'USER': os.environ['THINK_TANK_SQL_USER_NAME'],
         'HOST': os.environ['THINK_TANK_SQL_HOST'],
         'PASSWORD': os.environ['THINK_TANK_SQL_PASSWORD'],
